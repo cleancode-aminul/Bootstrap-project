@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+   
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!------------------------------------------------ Bootstrap custom link ---------------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    
+
+</head>
+
+<body>
+    <!----------------------------------------------- navigation section start --------------------------------------------------------------->
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container">
+            <div class="title-section">
+                <a class="navbar-brand" href="#carousel-indicators"><span>Safe</span> Builder</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home"
+                            style=" color: #4361ee; font-size: 20px; font-weight: 600;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about"
+                            style=" color: #4361ee; font-size: 20px; font-weight: 600;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#services"
+                            style="color: #4361ee; font-size: 20px; font-weight: 600;">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#portfolio"
+                            style=" color: #4361ee; font-size: 20px; font-weight: 600;">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact"
+                            style=" color: #4361ee; font-size: 20px; font-weight: 600;">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!---------------------------------------------- navigation section end ----------------------------------------------------->
+
+    <!-- ************************************************Carousel section start**************************************************** -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="home">
+            <div class="carousel-item active">
+                <img src="images/home-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Trustable Constraction</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo temporibus voluptatum,
+                        tenetur molestias tempora ratione!</p>
+                    <p><a href="" class="btn btn-warning mt-3">Learn More</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/home-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Habitable Environment</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nulla itaque quasi eveniet illum
+                        qui..</p>
+                    <p><a href="" class="btn btn-warning mt-3">Learn More</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/home-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h5>Always Deedicated</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum magni atque deserunt a natus
+                        beatae.</p>
+                    <p><a href="" class="btn btn-warning mt-3 ">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <br>
+    <!-- ************************************************Carousel section end**************************************************** -->
+    <!-- ---------------------------about section------------------------- -->
+    <section id="about" class="about section-padding">
+        <div class="container d-flex">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="images/about.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-5">
+                    <div class="about-text">
+                        <h2>We Provide Best Quality <br>Services Ever.</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, doloribus placeat
+                            perferendis hic impedit et quis aspernatur enim quam quos ea quas qui iste optio sit cum
+                            doloremque voluptatem voluptas!</p>
+                        <a href="#" class="btn btn-warning text-dark"> Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section start -->
+    <section id="about" class="service section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2 id="services">Our Services</h2>
+                        <p class="project-p">Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Blanditiis
+                            facilis unde.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card  text-white bg-dark text-center pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-house-fill"></i>
+                            <h3 class="card-title">
+                                Best Quality
+                            </h3>
+                            <p class="lead">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda inventore
+                                saepe amet, optio velit minima incidunt voluptate fugiat aliquid recusandae voluptatum
+                                dolore cumque voluptatem doloribus unde. Quos, natus rerum!
+                            </p>
+                            <a href="#" class="btn btn-warning text-white bg-dark">Read More</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card  text-white bg-dark text-center pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-slack"></i>
+                            <h3 class="card-title">
+                                Sustainable
+                            </h3>
+                            <p class="lead">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda inventore
+                                saepe amet, optio velit minima incidunt voluptate fugiat aliquid recusandae voluptatum
+                                dolore cumque voluptatem doloribus unde. Quos, natus rerum!
+                            </p>
+                            <a href="#" class="btn btn-warning text-white bg-dark">Read More</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card  text-white bg-dark text-center pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-subtract"></i>
+                            <h3 class="card-title">
+                                Integrity
+                            </h3>
+                            <p class="lead">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda inventore
+                                saepe amet, optio velit minima incidunt voluptate fugiat aliquid recusandae voluptatum
+                                dolore cumque voluptatem doloribus unde. Quos, natus rerum!
+                            </p>
+                            <a href="#" class="btn btn-warning text-white bg-dark">Read More</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section -->
+    <section id="portfolio" class="portfolio-section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Our Projects</h2>
+                        <p class="project-p">Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-light pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="images/project-1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-title">
+                                <h3>Building Making</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste eum delectus quasi,
+                                    consequatur corrupti reiciendis illum in nam assumenda laboriosam.</p>
+                                <button class="btn btn bg-warning ">Learn More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-light pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="images/project-2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-title">
+                                <h3>Building Making</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste eum delectus quasi,
+                                    consequatur corrupti reiciendis illum in nam assumenda laboriosam.</p>
+                                <button class="btn btn bg-warning ">Learn More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-light pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="images/project-3.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-title">
+                                <h3>Building Making</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste eum delectus quasi,
+                                    consequatur corrupti reiciendis illum in nam assumenda laboriosam.</p>
+                                <button class="btn btn bg-warning ">Learn More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="team" class="team section-padding">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2 id="portfolio">Our Projects</h2>
+                        <p class="project-p">Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Blanditiis
+                            facilis unde.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="images/team-1.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2">Jack wilstone</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor adicping amet consectetur.neque adicping illum tenetur
+                                reiciendis eligendi facilis voluptatem tenetur and quae.
+                            </p>
+                            <p class="socials">
+                                <a href="https://www.facebook.com/profile.php?id=100007864486994" target="_blank"><i
+                                        style="font-size:26px;" class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="https://twitter.com/Aminuli16" target="_blank"><i
+                                        style="font-size:26px; color: #000;" class="bi bi-twitter mx-1"></i></a>
+                                <a href="https://www.instagram.com/aminul683/"><i style="font-size:26px; color: #000;"
+                                        class="bi bi-instagram mx-1"></i></a>
+                                <a href="https://www.youtube.com/channel/UCRsb8CHFtNvD3bTlZRo_PHQ" target="_blank"><i
+                                        style="font-size:28px;color: #000; " class="bi bi-linkedin mx-1"></i></a>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="images/team-3.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2">Jack wilstone</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor adicping amet consectetur.neque adicping illum tenetur
+                                reiciendis eligendi facilis voluptatem tenetur and quae.
+                            </p>
+                            <p class="socials">
+                                <a href="https://www.facebook.com/profile.php?id=100007864486994" target="_blank"><i
+                                        style="font-size:26px;" class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="https://twitter.com/Aminuli16" target="_blank"><i
+                                        style="font-size:26px; color: #000;" class="bi bi-twitter mx-1"></i></a>
+                                <a href="https://www.instagram.com/aminul683/"><i style="font-size:26px; color: #000;"
+                                        class="bi bi-instagram mx-1"></i></a>
+                                <a href="https://www.youtube.com/channel/UCRsb8CHFtNvD3bTlZRo_PHQ" target="_blank"><i
+                                        style="font-size:28px;color: #000; " class="bi bi-linkedin mx-1"></i></a>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="images/team-4.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2">Jack wilstone</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor adicping amet consectetur.neque adicping illum tenetur
+                                reiciendis eligendi facilis voluptatem tenetur and quae.
+                            </p>
+                            <p class="socials">
+                                <a href="https://www.facebook.com/profile.php?id=100007864486994" target="_blank"><i
+                                        style="font-size:26px;" class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="https://twitter.com/Aminuli16" target="_blank"><i
+                                        style="font-size:26px; color: #000;" class="bi bi-twitter mx-1"></i></a>
+                                <a href="https://www.instagram.com/aminul683/"><i style="font-size:26px; color: #000;"
+                                        class="bi bi-instagram mx-1"></i></a>
+                                <a href="https://www.youtube.com/channel/UCRsb8CHFtNvD3bTlZRo_PHQ" target="_blank"><i
+                                        style="font-size:28px;color: #000; " class="bi bi-linkedin mx-1"></i></a>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="images/team-1.jpg" alt="" class="img-fluid rounded-circle">
+                            <h3 class="card-title py-2">Jack wilstone</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor adicping amet consectetur.neque adicping illum tenetur
+                                reiciendis eligendi facilis voluptatem tenetur and quae.
+                            </p>
+                            <p class="socials">
+                                <a href="https://www.facebook.com/profile.php?id=100007864486994" target="_blank"><i
+                                        style="font-size:26px;" class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="https://twitter.com/Aminuli16" target="_blank"><i
+                                        style="font-size:26px; color: #000;" class="bi bi-twitter mx-1"></i></a>
+                                <a href="https://www.instagram.com/aminul683/"><i style="font-size:26px; color: #000;"
+                                        class="bi bi-instagram mx-1"></i></a>
+                                <a href="https://www.youtube.com/channel/UCRsb8CHFtNvD3bTlZRo_PHQ" target="_blank"><i
+                                        style="font-size:28px;color: #000; " class="bi bi-linkedin mx-1"></i></a>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ---------------------------------------contact section start----------------------------------------- -->
+    <section id="contact" class="contact-sectin-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Contact Us</h2>
+                        <p class="project-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Nemo quam,
+                            eum debitis culpa a non.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-2 m-auto">
+                    <form action="#" style="background-color: #e8efef;" class=" rounded-2 p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" required placeholder="Enter yout name here">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" required
+                                        placeholder="Enter yout email here">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea name="name" rows="3" class="form-control"
+                                        placeholder="Write your repercussuion" required></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-warning">Send Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!-- ---------------------footer section------------------ -->
+    <footer class="bg-dark p-2 text-center justify-content-center">
+        <div class="container">
+
+            <p class="text-white">
+                Copyright ◬
+                <br>
+                All Right Reserved By ©Creative Web-2022
+            </p>
+        </div>
+    </footer>
+
+    <!---------------------------------------------- custom js link --------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
